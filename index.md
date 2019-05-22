@@ -36,5 +36,4 @@ It is interesting to note that the dynamics in this world model in the above vid
 
 Car Racing Section coming soon ...
 
-Two additional videos.
-
+Two additional videos will be added.
