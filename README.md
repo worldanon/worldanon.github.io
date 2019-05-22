@@ -1,6 +1,6 @@
-# Supplementary Videos for Learning to Predict Without Looking Ahead: World Models Without Forward Prediction
+## Supplementary Videos for Learning to Predict Without Looking Ahead: World Models Without Forward Prediction
 
-## Cartpole Swingup
+### Cartpole Swingup
 
 Our agent is given only infrequent observations of its environment, and must learn a world model to fill in the observation gaps. In the environment in the video below, the peek probability is 5%.
 
@@ -34,6 +34,6 @@ It is interesting to note that the dynamics in this world model in the above vid
 <video autoplay muted playsinline loop style="display: block; margin: auto; width: 100%;"><source src="mp4/deploy10.mp4" type="video/mp4"/></video>
 *Above: Deploying policy learned inside world model (peek probability of 10%) to actual environment.*
 
-## Car Racing
+### Car Racing
 
 Car Racing Section
