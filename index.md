@@ -46,4 +46,4 @@ To reduce the dimensionality of the pixel observations, we follow previous work 
 
 <video autoplay muted playsinline loop style="display: block; margin: auto; width: 100%;"><source src="mp4/learncarracing.mp4" type="video/mp4"/></video>
 
-The above video, corresponding to Figure 7 in the paper, is an animation that illustrates the world model's prediction on the right, vs the ground truth pixel observation on the left.  Frames that have a red border frames indicate actual observations from the environment the agent is allowed to see (the peek probability is 10% for this environment).
+The above video, corresponding to Figure 7 in the paper, is an animation that illustrates the world model's prediction on the right, vs the ground truth pixel observation on the left.  Frames that have a red border frames indicate actual observations from the environment the agent is allowed to see (the peek probability is 10% for this environment). The policy is acting on the observations (real or generated) on the right.
