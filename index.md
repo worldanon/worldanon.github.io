@@ -44,4 +44,6 @@ In more challenging environments, our observations are often expressed as high d
 
 To reduce the dimensionality of the pixel observations, we follow previous work in the literature and train a Variational Autoencoder (VAE) using on rollouts collected from a random policy, to compress a pixel observation into a small dimensional latent vector *z*. Our agent will use *z* instead as its observation.
 
+<img src="mp4/learncarracing.gif" width=75%/>
+
 The above video, corresponding to Figure 7 in the paper, is an animation that illustrates the world model's prediction on the right, vs the ground truth pixel observation on the left.  Frames that have a red border frames indicate actual observations from the environment the agent is allowed to see (the peek probability is 10% for this environment).
