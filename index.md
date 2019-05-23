@@ -40,6 +40,8 @@ It is interesting to note that the dynamics in this world model in the above vid
 
 ### Car Racing Experiment
 
-Car Racing Section coming soon ...
+In more challenging environments, our observations are often expressed as high dimensional pixel images rather than state vectors. In this experiment, we apply observation dropout to learn a world model of a car racing game from pixel observations. We would like to know to what extent the world model can facilitate the policy at driving if the agent is only allowed to see the road only only a fraction of the time. We are also interested in the representations the model learns to facilitate driving, and in measuring the usefulness of its internal representation for the task.
 
-Two additional videos will be added.
+To reduce the dimensionality of the pixel observations, we follow previous work in the literature and train a Variational Autoencoder (VAE) using on rollouts collected from a random policy, to compress a pixel observation into a small dimensional latent vector *z*. Our agent will use *z* instead as its observation.
+
+The above video, corresponding to Figure 7 in the paper, is an animation that illustrates the world model's prediction on the right, vs the ground truth pixel observation on the left.  Frames that have a red border frames indicate actual observations from the environment the agent is allowed to see (the peek probability is 10% for this environment).
